@@ -1,0 +1,27 @@
+.skills-wrapper {
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    14% {
+        transform: translateY(-50px);
+    }
+    28% {
+        transform: translateY(-100px);
+    }
+    42% {
+        transform: translateY(-150px);
+    }
+    56% {
+        transform: translateY(-200px);
+    }
+    70% {
+        transform: translateY(-250px);
+    }
+    84% {
+        transform: translateY(-300px);
+    }
+    100% {
+        transform: translateY(-350px);
+    }
+}
