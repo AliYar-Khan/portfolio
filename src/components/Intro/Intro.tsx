@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-
+import PortfolioPicture from '../../assets/Portfolio.png';
 export default function Intro() {
   return (
     <div className="flex bg-white" style={{ height: "100vh" }}>
@@ -67,8 +67,9 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      <div className="flex flex-1">
-        <div className="p-[50px]">left</div>
+      <div className="flex flex-1 relative">
+        <div className="i-bg"></div>
+        <img src={PortfolioPicture} alt="Profile" className="w-full h-full object-cover absolute" />
       </div>
     </div>
   );
