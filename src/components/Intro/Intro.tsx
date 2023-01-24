@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import PortfolioPicture from '../../assets/Portfolio.png';
+import PortfolioPicture from '../../assets/Portfolio.jpg';
 export default function Intro() {
   return (
     <div className="flex bg-white" style={{ height: "100vh" }}>
